@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Support — Cue</title>
+<style>
+  :root {
+    --bg: #FDFCFF; --paper: #FFFFFF; --ink: #2A2B33; --ink-soft: #6B6C78;
+    --accent: #5B72B0; --hairline: #E4E2EF;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17181D; --paper: #1E1F26; --ink: #F0EFF7; --ink-soft: #A3A2AF; --accent: #8B9EDB; --hairline: #30334A; }
+  }
+  :root[data-theme="dark"] { --bg: #17181D; --paper: #1E1F26; --ink: #F0EFF7; --ink-soft: #A3A2AF; --accent: #8B9EDB; --hairline: #30334A; }
+  :root[data-theme="light"] { --bg: #FDFCFF; --paper: #FFFFFF; --ink: #2A2B33; --ink-soft: #6B6C78; --accent: #5B72B0; --hairline: #E4E2EF; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 700px; margin: 0 auto; padding: 64px 24px 96px; }
+  .masthead { margin-bottom: 40px; }
+  .masthead .app-name { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+  h1 { font-size: clamp(1.8rem, 4vw, 2.3rem); line-height: 1.2; margin: 0 0 8px; text-wrap: balance; }
+  .lede { font-size: 1.05rem; color: var(--ink-soft); margin: 28px 0 0; max-width: 62ch; }
+  h2 { font-size: 1.1rem; margin: 36px 0 10px; }
+  .faq-item { border-top: 1px solid var(--hairline); padding-top: 22px; margin-top: 22px; }
+  .faq-item:first-of-type { border-top: none; padding-top: 0; margin-top: 40px; }
+  p { margin: 0 0 14px; max-width: 66ch; }
+  ul, ol { margin: 0 0 14px; padding-left: 22px; max-width: 62ch; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration-thickness: 1px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .callout { background: var(--paper); border: 1px solid var(--hairline); border-radius: 12px; padding: 18px 20px; margin: 40px 0 0; max-width: 62ch; }
+  .callout p:last-child { margin-bottom: 0; }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--hairline); color: var(--ink-soft); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <p class="app-name">Cue — iOS &amp; Android app</p>
+    <h1>Support</h1>
+  </div>
+
+  <p class="lede">
+    Answers to common questions. If yours isn't here, email
+    <a href="mailto:jonny@jknkmedia.com">jonny@jknkmedia.com</a> and we'll get back to you.
+  </p>
+
+  <div class="faq-item">
+    <h2>How do I create a routine?</h2>
+    <p>
+      From the Today screen, tap the "+" button. Pick a starting template
+      (Morning, Evening, Bedtime) or start from scratch, adjust the name,
+      time, and checklist items, then tap Start.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I edit, reorder, or delete items in a routine?</h2>
+    <p>
+      Open the routine and tap "Edit routine." From there you can rename
+      items, drag to reorder them, remove items, or delete the whole
+      routine.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>Why isn't there a streak counter, or points for finishing a routine?</h2>
+    <p>
+      On purpose. Streaks and points can turn a missed day into something
+      that feels like a broken promise, which isn't the experience Cue is
+      trying to create. Cue shows you what's next and lets you glance
+      backward in History — nothing is scored.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>Does Cue sync across my devices?</h2>
+    <p>
+      No — and this is deliberate, not a missing feature. Cue has no
+      account system and no cloud sync, so a routine created on one
+      device stays on that device. See our
+      <a href="/privacy-policy/">Privacy Policy</a> for more on how your data is handled.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I get the home-screen widget?</h2>
+    <p>
+      <strong>iOS:</strong> long-press your home screen, tap the "+" in
+      the top corner, search for "Cue," and add either the main
+      routine widget or the minimal color-only widget.
+    </p>
+    <p>
+      <strong>Android:</strong> long-press your home screen, tap
+      Widgets, find "Cue" in the list, and drag either widget onto your
+      home screen.
+    </p>
+    <p>
+      Tapping the widget's next item marks it done directly — it won't
+      open the app.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>I stopped getting my daily reminder — what should I check?</h2>
+    <ol>
+      <li>Confirm notifications are allowed for Cue in your device's system Settings.</li>
+      <li>Open the routine and confirm its start time is still what you expect.</li>
+      <li>Check Settings → Reminder Timing — this offsets every routine's reminder by the same number of minutes before its start time.</li>
+    </ol>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I delete a routine, or all of my data?</h2>
+    <p>
+      Delete a single routine (and its history) from that routine's Edit
+      screen. To remove everything Cue has stored, uninstall the app —
+      since nothing is stored anywhere but your device, uninstalling
+      removes it completely.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>Is Cue free?</h2>
+    <p>
+      Yes — your first routine is free, permanently, with no trial or
+      subscription required. On top of that, Cue gives you a one-time
+      3-day preview when you first install it, with full access and as
+      many routines as you want, no payment or sign-up involved. When the
+      preview ends, nothing is charged and nothing locks up — the app
+      just returns to the permanent one-routine free tier. If you want
+      more than one routine after that, an optional subscription
+      ($3.99/month or $24.99/year) unlocks unlimited routines.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I cancel my subscription?</h2>
+    <p>
+      Subscriptions are managed entirely through Apple or Google, not
+      through Cue itself. <strong>iOS:</strong> Settings → your name →
+      Subscriptions → Cue → Cancel Subscription.
+      <strong>Android:</strong> open the Google Play Store app → tap your
+      profile icon → Payments &amp; subscriptions → Subscriptions → Cue →
+      Cancel. Cancelling stops future billing; you'll keep access through
+      the end of the period you've already paid for.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h2>I reinstalled Cue or got a new device — how do I get my subscription back?</h2>
+    <p>
+      Your subscription is tied to your Apple ID or Google account, not
+      to the app install. Reinstall Cue and sign in with the same Apple
+      ID or Google account you subscribed with, and it's recognized
+      automatically. Note this only restores your subscription, not your
+      data — see "Does Cue sync across my devices?" above.
+    </p>
+  </div>
+
+  <div class="callout">
+    <p><strong>Still stuck?</strong> Email <a href="mailto:jonny@jknkmedia.com">jonny@jknkmedia.com</a> with a description of what you're seeing and, if possible, your device and OS version — that's usually enough for us to help.</p>
+  </div>
+
+  <footer>
+    Cue is developed by JKNKMedia.
+  </footer>
+</div>
+</body>
+</html>
